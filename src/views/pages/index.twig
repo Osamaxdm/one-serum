@@ -1,0 +1,30 @@
+{% extends "layouts/master.twig" %}
+
+{% block title %}
+  سيروم واحد - الصفحة الرئيسية
+{% endblock %}
+
+{% block content %}
+  <section style="text-align:center; margin-top:50px;">
+    <img 
+      src="https://example.com/my-serum.jpg" 
+      alt="سيروم" 
+      style="max-width:300px;"
+    />
+    <h2>سيروم العناية بالبشرة</h2>
+    <p>وصف موجز عن فوائد السيروم.</p>
+    <a 
+      href="/product/my-serum" 
+      style="
+        display:inline-block; 
+        margin-top:20px; 
+        padding:10px 20px; 
+        background-color:#007bff; 
+        color:#fff; 
+        text-decoration:none;
+      "
+    >
+      اشترِ الآن
+    </a>
+  </section>
+{% endblock %}
